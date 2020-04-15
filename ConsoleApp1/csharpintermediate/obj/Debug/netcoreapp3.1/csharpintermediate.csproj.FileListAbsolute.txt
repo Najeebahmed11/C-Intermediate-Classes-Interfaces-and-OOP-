@@ -1,0 +1,13 @@
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\bin\Debug\netcoreapp3.1\csharpintermediate.exe
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\bin\Debug\netcoreapp3.1\csharpintermediate.deps.json
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\bin\Debug\netcoreapp3.1\csharpintermediate.runtimeconfig.json
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\bin\Debug\netcoreapp3.1\csharpintermediate.runtimeconfig.dev.json
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\bin\Debug\netcoreapp3.1\csharpintermediate.dll
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\bin\Debug\netcoreapp3.1\csharpintermediate.pdb
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\obj\Debug\netcoreapp3.1\csharpintermediate.csprojAssemblyReference.cache
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\obj\Debug\netcoreapp3.1\csharpintermediate.csproj.CoreCompileInputs.cache
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\obj\Debug\netcoreapp3.1\csharpintermediate.AssemblyInfoInputs.cache
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\obj\Debug\netcoreapp3.1\csharpintermediate.AssemblyInfo.cs
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\obj\Debug\netcoreapp3.1\csharpintermediate.dll
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\obj\Debug\netcoreapp3.1\csharpintermediate.pdb
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpintermediate\obj\Debug\netcoreapp3.1\csharpintermediate.genruntimeconfig.cache

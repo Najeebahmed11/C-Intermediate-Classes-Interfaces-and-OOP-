@@ -1,15 +1,12 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace csharpintermediate
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Methods
-
             Console.WriteLine("Hello World!");
-
         }
     }
 }

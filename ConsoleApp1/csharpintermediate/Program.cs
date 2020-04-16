@@ -8,14 +8,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var cus = new Customers(1, "najeeb");
-            cus.Orders.Add(new Order());
-            cus.Orders.Add(new Order());
-            cus.Orders.Add(new Order());
-            cus.Orders.Add(new Order());
-            cus.Promote();
-            Console.WriteLine(cus.Orders.Count());
-
+           //access modifier is way to access to a class or its member
+           //why?for safety of pgms
+           //encapsulation:we dont want classes to know detail of other classes;
+           //encapsulation:define field as private and getter setter method as public
+           //setter and getter can check strings values
+           //in camel case private fields should start with underline _name eg
+           //
         }
     }
 }

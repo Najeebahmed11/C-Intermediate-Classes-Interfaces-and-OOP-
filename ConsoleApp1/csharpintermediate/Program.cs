@@ -9,11 +9,17 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var ins = new HttpCookie();
-            ins["name"] = "NAjeeb";
-            Console.WriteLine(ins["name"]);
-            //indexers:a ways to access elements of class that represent list of values
-            Console.WriteLine("hello");
+            class Stopwatch
+        {
+            //use of this() is now understandable
+            public TimeSpan startTime;
+            public TimeSpan endTime;
+            public TimeSpan Start()
+            {
+
+            }
+        }
+
         }
 
     }

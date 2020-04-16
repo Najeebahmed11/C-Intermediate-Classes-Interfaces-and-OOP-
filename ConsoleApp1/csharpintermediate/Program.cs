@@ -9,9 +9,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var age = new Person(new DateTime(1997, 8, 14));
-            
-            Console.WriteLine(age.age);
+            var ins = new HttpCookie();
+            ins["name"] = "Mosh";
+            Console.WriteLine(ins["name"]);
+            //indexers:a ways to access elements of class that represent list of values
+            Console.WriteLine("hello");
         }
 
     }

@@ -13,6 +13,7 @@ namespace ConsoleApp1
         {
             //use of this() is now understandable
             public TimeSpan startTime;
+
             public TimeSpan endTime;
             public TimeSpan Start()
             {

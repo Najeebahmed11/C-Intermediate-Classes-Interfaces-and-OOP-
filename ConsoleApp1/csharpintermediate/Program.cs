@@ -14,23 +14,14 @@ namespace ClassLibrary1
     {
         static void Main(string[] args)
         {
-            //upcasting:from derived to base class
-            //downcasting:from base to drive class
-            private void Button_Click(object sender, RoutedEventArgs e)
-            {
-                var downc = sender as Button;
-                if (downc != null)
-                {
-                    MessageBox.Show(downc.ActualHeight.ToString());
+            //value type:they are on the stack.where limit amout mem is allocated to each thread pgm
+            //ref type are stoed in heap for longer lifetime eg anyclasses
+            //boxing:conversion of value type ref to object type ref
+            //value is stored in heap instead of stack
+            //clr put object in heap and reference in stack that point to heap
+            //unboxing:when we cast an object to integer
+            //
 
-
-                }
-
-                MessageBox.Show("najeeb");
-            }
-            Shape shape = new Text();
-            Text text = (Text)shape;
-            
 
         }
 

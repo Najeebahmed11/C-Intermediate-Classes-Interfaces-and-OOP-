@@ -1,6 +1,7 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 using System.Linq;
+using System.Reflection.Metadata;
+using System.Threading.Channels;
 
 namespace ConsoleApp1
 {
@@ -8,13 +9,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //Coupling :A meassure how classes and subsytems are interconnected
-            //a app is composed of many classes that are package inside name space and assembly
-            //tightly coupled app:whose classes are related to each other
-            //loosly Coupled:want to minimize changes in our apps
-            //interfaces:help to ddesign loosly coupled apps
-            //types of relationship:inheritance,composition
-            //compostion usually result in less coupling
+            //inheritance
+            var text = new Text();
+            //equal,get hash,get string.These methods are defined in objet class.which is parent of all class in .net
+            text.Addhyperlink("najeeb");
         }            
     }
 

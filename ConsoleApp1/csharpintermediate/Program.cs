@@ -8,35 +8,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var post1 = new Post("MyPost", "MyDescription");
-
-            post1.UpVote();
-            post1.UpVote();
-            post1.UpVote();
-            post1.UpVote();
-            post1.UpVote();
-            post1.UpVote();
-            post1.UpVote();
-
-
-            post1.DownVote();
-            post1.DownVote();
-            post1.DownVote();
-            post1.DownVote();
-
-            //count should be 3
-            displayPost(post1);
-
-        }
-
-        static void displayPost(Post post)
-        {
-            Console.WriteLine(post.Title);
-            Console.WriteLine(post.Desription);
-            Console.WriteLine(post.PostedTime);
-            Console.WriteLine($"Current Vote: {post.CurrentVote}");
-        }
-
+            //Coupling :A meassure how classes and subsytems are interconnected
+            //a app is composed of many classes that are package inside name space and assembly
+            //tightly coupled app:whose classes are related to each other
+            //loosly Coupled:want to minimize changes in our apps
+            //interfaces:help to ddesign loosly coupled apps
+            //types of relationship:inheritance,composition
+            //compostion usually result in less coupling
+        }            
     }
 
 }

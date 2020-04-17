@@ -1,6 +1,8 @@
 ﻿using System.Drawing;
 using System.Linq;
 using System.Reflection.Metadata;
+using System.Runtime.InteropServices.ComTypes;
+using System.Threading;
 using System.Threading.Channels;
 
 namespace ConsoleApp1
@@ -9,10 +11,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //inheritance
-            var text = new Text();
-            //equal,get hash,get string.These methods are defined in objet class.which is parent of all class in .net
-            text.Addhyperlink("najeeb");
+            var dbMigrator = new DbMigrator(new Logger());
+            var installer = new Installer(new Logger());
+            dbMigrator.Migrate();
+            installer.installer();
+
+            //Composition
+            //means to dedign loosly couple apps
+            
+            
         }            
     }
 

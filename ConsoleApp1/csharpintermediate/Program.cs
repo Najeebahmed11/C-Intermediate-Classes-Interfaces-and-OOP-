@@ -1,5 +1,6 @@
 ﻿using ClassLibrary1;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection.Metadata;
@@ -14,13 +15,14 @@ namespace ClassLibrary1
     {
         static void Main(string[] args)
         {
-            //value type:they are on the stack.where limit amout mem is allocated to each thread pgm
-            //ref type are stoed in heap for longer lifetime eg anyclasses
-            //boxing:conversion of value type ref to object type ref
-            //value is stored in heap instead of stack
-            //clr put object in heap and reference in stack that point to heap
-            //unboxing:when we cast an object to integer
-            //
+            var list = new ArrayList();
+            list.Add(1);
+            list.Add("najeeb");
+            list.Add(DateTime.Today);
+            //we loose type safety;
+            var num = (int)list[1];
+            Console.WriteLine(num);
+            var anotherlist = new List<int>();
 
 
         }

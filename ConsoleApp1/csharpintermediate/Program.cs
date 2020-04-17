@@ -11,9 +11,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-           //favour composition over inheritance
-           //inhertance(is a )
-           //composition (has a)
+            //summary and revision
         }            
     }
 

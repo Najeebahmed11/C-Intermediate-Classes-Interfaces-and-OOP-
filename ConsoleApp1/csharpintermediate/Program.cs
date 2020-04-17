@@ -4,24 +4,40 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-
     class Program
     {
         static void Main(string[] args)
         {
-            class Stopwatch
-        {
-            //use of this() is now understandable
-            public TimeSpan startTime;
+            var post1 = new Post("MyPost", "MyDescription");
 
-            public TimeSpan endTime;
-            public TimeSpan Start()
-            {
+            post1.UpVote();
+            post1.UpVote();
+            post1.UpVote();
+            post1.UpVote();
+            post1.UpVote();
+            post1.UpVote();
+            post1.UpVote();
 
-            }
+
+            post1.DownVote();
+            post1.DownVote();
+            post1.DownVote();
+            post1.DownVote();
+
+            //count should be 3
+            displayPost(post1);
+
         }
 
+        static void displayPost(Post post)
+        {
+            Console.WriteLine(post.Title);
+            Console.WriteLine(post.Desription);
+            Console.WriteLine(post.PostedTime);
+            Console.WriteLine($"Current Vote: {post.CurrentVote}");
         }
 
     }
+
 }
+

@@ -15,14 +15,18 @@ namespace ClassLibrary1
     {
         static void Main(string[] args)
         {
-            var list = new ArrayList();
-            list.Add(1);
-            list.Add("najeeb");
-            list.Add(DateTime.Today);
-            //we loose type safety;
-            var num = (int)list[1];
-            Console.WriteLine(num);
-            var anotherlist = new List<int>();
+            var stack = new Stack();
+
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
+
+            Console.ReadLine();
 
 
         }

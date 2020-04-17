@@ -11,15 +11,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var dbMigrator = new DbMigrator(new Logger());
-            var installer = new Installer(new Logger());
-            dbMigrator.Migrate();
-            installer.installer();
-
-            //Composition
-            //means to dedign loosly couple apps
-            
-            
+           //favour composition over inheritance
+           //inhertance(is a )
+           //composition (has a)
         }            
     }
 

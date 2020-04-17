@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TxyJFLfPpvZuvabO7GQmvcrY9UncWORVusLXazq8qEqA3eSa/2Hl81ofpOvH8RYGfgSynNa3lsWu4fpEgT8ZKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Najeeb Tiwana\\source\\repos\\C-Intermediate-Classes-Interfaces-and-OOP-\\ConsoleApp1\\ClassLibrary1\\ClassLibrary1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Najeeb Tiwana\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Najeeb Tiwana\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

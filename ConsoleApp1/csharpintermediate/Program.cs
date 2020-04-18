@@ -1,5 +1,4 @@
 ﻿using ClassLibrary1;
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -11,27 +10,23 @@ using System.Threading.Channels;
 
 namespace ClassLibrary1
 {
-    class rectangle : shape
-    {
-        public override void draw()
-        {
-            base.draw();
-        }
-    }
-    public class shape
-    {
-        public virtual void draw()
-        {
-               
-        }
-    }
+
     public class Program
     {
         static void Main(string[] args)
         {
-            //method overriding:modifying the implimentation of inherutaed method
-            //polymorphism means many forms
-            //
+            var stream = new Stream();
+            //Abstract classes and members:indiacate class or a member is missng implimentation.
+            //and we leave it to derive classes to fulfill that implimentation
+            //class and function both should be declared abstract
+            //fuction should not have a body
+            //abstract classes can not intialized
+            var crl = new circle();
+            crl.draw();
+            var rec = new Rectangle();
+            rec.draw();
+           // var shape = new Shapes();
+
         }
 
     }       

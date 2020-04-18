@@ -16,23 +16,9 @@ namespace csharpintermediate
     {
         static void Main(string[] args)
         {
-            //Sealed classes are the oppiste of abstract classes
-            //prevent derivation of classes
-            //sealed is only applied to virtual with override methods
+            //interfaces:a language construct that is similar to class but it is fundametally different
+            //interface dont have access modifiers and implimentation
             //
-            var sqlDbConnection = new SqlConnection(@"Data Source=(LocalDb)\MSSQLLocalDB");
-            var sqlDbQuery = "USE my-DB; SELECT * FROM connections";
-            var sqlDbCommand = new DbCommand(sqlDbConnection, sqlDbQuery);
-
-            sqlDbCommand.Execute();
-
-            var oracleDbConnection = new OracleConnection(@"Data Source=(LocalDb)\MSSQLLocalDB");
-            var oracleDbQuery = "USE my-DB; SELECT * FROM connections";
-            var oracleDbCommand = new DbCommand(oracleDbConnection, oracleDbQuery);
-
-            oracleDbCommand.Execute();
-
-            Console.ReadLine();
         }
 
     }       

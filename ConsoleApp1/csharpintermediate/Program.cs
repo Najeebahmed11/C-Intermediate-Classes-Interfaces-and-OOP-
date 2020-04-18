@@ -11,24 +11,27 @@ using System.Threading.Channels;
 
 namespace ClassLibrary1
 {
+    class rectangle : shape
+    {
+        public override void draw()
+        {
+            base.draw();
+        }
+    }
+    public class shape
+    {
+        public virtual void draw()
+        {
+               
+        }
+    }
     public class Program
     {
         static void Main(string[] args)
         {
-            var stack = new Stack();
-
-            stack.Push(1);
-            stack.Push(2);
-            stack.Push(3);
-
-            Console.WriteLine(stack.Pop());
-            Console.WriteLine(stack.Pop());
-            Console.WriteLine(stack.Pop());
-            Console.WriteLine(stack.Pop());
-
-            Console.ReadLine();
-
-
+            //method overriding:modifying the implimentation of inherutaed method
+            //polymorphism means many forms
+            //
         }
 
     }       

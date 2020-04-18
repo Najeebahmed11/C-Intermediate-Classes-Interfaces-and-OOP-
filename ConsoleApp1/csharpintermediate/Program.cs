@@ -5,8 +5,12 @@
     {
         static void Main(string[] args)
         {
-            var dbmig = new DbMigrat(new FileLogger("D:\\internship\\log.txt"));
-            dbmig.Migrate();
+            //interfaces are not for multiple inheritance
+            //a class can have multiplle base classes
+            //but csharp is not applicable however we can impliment 
+            //multiple interfaces
+            // a class only impliment ierfaces
+            //
 
 
         }

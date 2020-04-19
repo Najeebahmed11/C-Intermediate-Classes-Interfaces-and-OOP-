@@ -5,7 +5,8 @@
     {
         static void Main(string[] args)
         {
-            //completed summary
+            //completed Revision of section 6
+
             var encoder = new VideoEncoder();
             encoder.RegisterNotificationChannel(new MailNotificationChannel());
             encoder.RegisterNotificationChannel(new SmsNotificationChannel());

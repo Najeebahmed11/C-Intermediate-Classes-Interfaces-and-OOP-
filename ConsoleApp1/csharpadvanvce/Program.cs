@@ -6,20 +6,15 @@ namespace csharpadvanvce
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            var books = new BookRepository().GetBooks();
-            books.Where();
-            books.Single();
-            Book.SingleOrdefault();
-            books.First();
-            books.FirstOrDefault();
-            books.Last();
-
-
+            //a value type can not be null
+            DateTime  ? date = null;
+            DateTime date2=date ?? DateTime.Today;
+            //value type can be easily converted into nullable type
+            //nul-coelsing operator
+        
+            Console.WriteLine(date2);
         }
-
-
-
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpadvanvce\bin\Debug\csharpadvanvce.exe.config
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpadvanvce\bin\Debug\csharpadvanvce.exe
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpadvanvce\bin\Debug\csharpadvanvce.pdb
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpadvanvce\obj\Debug\csharpadvanvce.csprojAssemblyReference.cache
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpadvanvce\obj\Debug\csharpadvanvce.csproj.CoreCompileInputs.cache
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpadvanvce\obj\Debug\csharpadvanvce.exe
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\csharpadvanvce\obj\Debug\csharpadvanvce.pdb

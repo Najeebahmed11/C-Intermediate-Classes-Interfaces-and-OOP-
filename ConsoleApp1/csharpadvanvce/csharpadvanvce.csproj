@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Book.cs" />
     <Compile Include="BookList.cs" />
+    <Compile Include="BookRepository.cs" />
     <Compile Include="DiscountCalculator.cs" />
     <Compile Include="List.cs" />
     <Compile Include="Nullable.cs" />

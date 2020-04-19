@@ -4,27 +4,24 @@ using System;
 namespace csharpadvanvce
 {
     class Program
-        //delegates:that knows how to call method or a group of a method
-        //a reference to function
-        //for designing extensible and flexible apps
-        // use delegates when we have a eveting design pattern
-        //or when caller does not need to access other propeties and methods
-
     {
+        //Lambda expression: a annoynyms method 
+        //no access modifier
+        //no name
+        //no return statment
+        //why do we use it?
+        //for convienence,to write less code and achieve same thing
+        //args =>(goes to) expression    
         static void Main(string[] args)
         {
-            var processor = new PhotoProcessor();
-            var filters = new PhotoFilters();
-            Action<Photo> filterHandler = filters.ApplyBrightness;
-            filterHandler += filters.ApplyContrast;
-            filterHandler += RemoveRedEyeFilter;
+            var books = new BookRepository().GetBooks();
 
-            processor.Process("photo.jpg", filterHandler);
-        }
+            var cheapBooks = books.FindAll(b => b.Price < 10);
 
-        static void RemoveRedEyeFilter(Photo photo)
-        {
-            Console.WriteLine("Apply RemoveRedEye");
+            foreach (var book in cheapBooks)
+            {
+                Console.WriteLine(book.Title);
+            }
 
         }
     }

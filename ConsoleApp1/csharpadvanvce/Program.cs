@@ -8,13 +8,10 @@ namespace csharpadvanvce
     {
         public static void Main(string[] args)
         {
-            //a value type can not be null
-            DateTime  ? date = null;
-            DateTime date2=date ?? DateTime.Today;
-            //value type can be easily converted into nullable type
-            //nul-coelsing operator
-        
-            Console.WriteLine(date2);
+            object obj = "najeeeb";
+            obj.GetHashCode();
+            dynamic name = "najeeb";
+            name = 1112;
         }
     }
 }

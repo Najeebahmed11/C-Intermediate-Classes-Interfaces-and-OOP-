@@ -1,4 +1,8 @@
-﻿using System.Runtime.InteropServices;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
 
 namespace csharpadvanvce
 {
@@ -7,20 +11,12 @@ namespace csharpadvanvce
           
         static void Main(string[] args)
         {
-            //events and delegates:
-            //event:a mechinism of communication between two objects
-            //it help in building loosly couple apps
-            //delegent is agreement between publisher and subscriber
-            var video = new Video() { Title = "Video 1" };
-            var videoEncoder = new VideoEncoder();//publisher
-            var mailService = new MailService();//subscriber
-            var messageService = new MessageService();//subscriber
-
-            videoEncoder.videoEncoded += mailService.OnVideoEncoded;//this is reference to that method
-            //video encoded events is list of methods
-            videoEncoder.videoEncoded += messageService.OnVideoEncoded;
-
-            videoEncoder.Encode(video);
+            //Extension Method:allow us to add method to exsisting class without changing its source code
+            string post = "very very long blog post cbchbc";
+            var shortenedPost = post.shorten(5);
+            IEnumerable<int> numbers = new List<int>() {1,2,3,4,5 };
+            
+            Console.WriteLine(numbers.Max());
         }
     }
 }

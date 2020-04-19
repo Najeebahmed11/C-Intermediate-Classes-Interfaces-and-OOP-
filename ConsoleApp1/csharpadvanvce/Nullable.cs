@@ -1,29 +1,26 @@
-﻿namespace csharpadvanvce
+
+
+namespace System
 {
-    public class Nullable<T> where T : struct
+    public class String
     {
-        private object _value;
-
-        public Nullable()
+        public void Shorten(int numberOfWords)
         {
+
+
         }
 
-        public Nullable(T value)
+        public int Add(int a, int b)
         {
-            _value = value;
+            return a + b;
         }
 
-        public bool HasValue
-        {
-            get { return _value != null; }
-        }
 
-        public T GetValueOrDefault()
-        {
-            if (HasValue)
-                return (T)_value;
+    }
 
-            return default(T);
-        }
+    public class MessageArgs
+    {
     }
 }
+
+

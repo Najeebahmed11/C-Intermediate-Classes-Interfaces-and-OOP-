@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Csharp Advanced Topics")]
+[assembly: AssemblyTitle("csharpadvanvce")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Csharp Advanced Topics")]
+[assembly: AssemblyProduct("csharpadvanvce")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ae1a7b76-9be4-4629-915d-3c647840e188")]
+[assembly: Guid("d1fa6f3f-8d55-44e8-bb67-3662f41afb0d")]
 
 // Version information for an assembly consists of the following four values:
 //

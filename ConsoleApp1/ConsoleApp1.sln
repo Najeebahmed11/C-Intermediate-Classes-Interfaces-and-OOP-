@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2.UnitTests", "ConsoleApp2.UnitTests\ConsoleApp2.UnitTests.csproj", "{7E775E3B-C86D-4403-AC56-C846C03258C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp Advanced Topics", "Csharp Advanced Topics\Csharp Advanced Topics.csproj", "{AE1A7B76-9BE4-4629-915D-3C647840E188}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharpadvanvce", "csharpadvanvce\csharpadvanvce.csproj", "{D1FA6F3F-8D55-44E8-BB67-3662F41AFB0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{7E775E3B-C86D-4403-AC56-C846C03258C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E775E3B-C86D-4403-AC56-C846C03258C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E775E3B-C86D-4403-AC56-C846C03258C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE1A7B76-9BE4-4629-915D-3C647840E188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE1A7B76-9BE4-4629-915D-3C647840E188}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE1A7B76-9BE4-4629-915D-3C647840E188}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE1A7B76-9BE4-4629-915D-3C647840E188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FA6F3F-8D55-44E8-BB67-3662F41AFB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FA6F3F-8D55-44E8-BB67-3662F41AFB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FA6F3F-8D55-44E8-BB67-3662F41AFB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FA6F3F-8D55-44E8-BB67-3662F41AFB0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

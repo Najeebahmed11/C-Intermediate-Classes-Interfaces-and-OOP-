@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AE1A7B76-9BE4-4629-915D-3C647840E188}</ProjectGuid>
+    <ProjectGuid>{D1FA6F3F-8D55-44E8-BB67-3662F41AFB0D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Csharp_Advanced_Topics</RootNamespace>
-    <AssemblyName>Csharp Advanced Topics</AssemblyName>
+    <RootNamespace>csharpadvanvce</RootNamespace>
+    <AssemblyName>csharpadvanvce</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Book.cs" />
+    <Compile Include="BookList.cs" />
+    <Compile Include="DiscountCalculator.cs" />
+    <Compile Include="List.cs" />
+    <Compile Include="Nullable.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sample.cs" />
+    <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

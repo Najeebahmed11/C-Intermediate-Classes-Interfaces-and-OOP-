@@ -1,28 +1,26 @@
-﻿
-using System;
+﻿using System.Runtime.InteropServices;
 
 namespace csharpadvanvce
 {
     class Program
     {
-        //Lambda expression: a annoynyms method 
-        //no access modifier
-        //no name
-        //no return statment
-        //why do we use it?
-        //for convienence,to write less code and achieve same thing
-        //args =>(goes to) expression    
+          
         static void Main(string[] args)
         {
-            var books = new BookRepository().GetBooks();
+            //events and delegates:
+            //event:a mechinism of communication between two objects
+            //it help in building loosly couple apps
+            //delegent is agreement between publisher and subscriber
+            var video = new Video() { Title = "Video 1" };
+            var videoEncoder = new VideoEncoder();//publisher
+            var mailService = new MailService();//subscriber
+            var messageService = new MessageService();//subscriber
 
-            var cheapBooks = books.FindAll(b => b.Price < 10);
+            videoEncoder.videoEncoded += mailService.OnVideoEncoded;//this is reference to that method
+            //video encoded events is list of methods
+            videoEncoder.videoEncoded += messageService.OnVideoEncoded;
 
-            foreach (var book in cheapBooks)
-            {
-                Console.WriteLine(book.Title);
-            }
-
+            videoEncoder.Encode(video);
         }
     }
 }

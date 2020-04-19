@@ -10,7 +10,8 @@ namespace Csharp_Advanced_Topics
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("check new project");
+            //completed section 1
+            Console.WriteLine("completed section 1");
         }
     }
 }

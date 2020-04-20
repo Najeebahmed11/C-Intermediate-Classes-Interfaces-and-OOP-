@@ -1,0 +1,15 @@
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\bin\Debug\Asynch.exe.config
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\bin\Debug\Asynch.exe
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\bin\Debug\Asynch.pdb
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\obj\Debug\Asynch.csprojAssemblyReference.cache
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\obj\Debug\MainWindow.g.cs
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\obj\Debug\App.g.cs
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\obj\Debug\Asynch_MarkupCompile.cache
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\obj\Debug\Asynch_MarkupCompile.lref
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\obj\Debug\MainWindow.baml
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\obj\Debug\Asynch.g.resources
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\obj\Debug\Asynch.Properties.Resources.resources
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\obj\Debug\Asynch.csproj.GenerateResource.cache
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\obj\Debug\Asynch.csproj.CoreCompileInputs.cache
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\obj\Debug\Asynch.exe
+C:\Users\Najeeb Tiwana\source\repos\C-Intermediate-Classes-Interfaces-and-OOP-\ConsoleApp1\Asynch\obj\Debug\Asynch.pdb

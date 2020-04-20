@@ -8,11 +8,10 @@ namespace csharpadvanvce
     {
         public static void Main(string[] args)
         {
-           //revision
-           //lec 6 Generics
-           //object list can also be used but every time it should be boxed to store values
-           //this is perfomance penality
-           //system.collection.generic...>classes
+           //delegates
+           //there are two delegates with system class action and func
+           //fucn ponts to method that returns a value
+           //action return a void
            //
         }
     }
